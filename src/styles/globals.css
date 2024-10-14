@@ -35,6 +35,27 @@ a {
   text-decoration: none;
 }
 
+.villainList{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.villainCard {
+  background: transparent;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 16px 0;
+  padding: 16px;
+  width: 100%;
+}
+
+.villainCard:hover, .villainCard.selected {
+  background: white;
+  color: black;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
