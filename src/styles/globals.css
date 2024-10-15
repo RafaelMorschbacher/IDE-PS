@@ -35,11 +35,16 @@ a {
   text-decoration: none;
 }
 
+.icones{
+  font-size: 50px;
+  padding: 50px 0 50px;
+}
 .villainList{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   list-style: none;
+  padding: 40px 0;
 }
 
 .villainCard {
@@ -56,6 +61,23 @@ a {
   color: black;
 }
 
+.villainContent{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between
+}
+.villainContent p {
+  font-size: 40px;
+}
+
+.villainContent h2 {
+  font-size: 60px;
+}
+
+.footerImage{
+  filter: brightness(0) invert(1);
+
+}
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
