@@ -35,7 +35,18 @@ a {
   text-decoration: none;
 }
 
-.icones{
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px 10%;
+  background: var(--background);
+  color: var(--foreground);
+}
+
+
+.iconesTerror{
   font-size: 50px;
   padding: 50px 0 50px;
 }

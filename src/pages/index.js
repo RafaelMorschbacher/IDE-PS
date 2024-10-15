@@ -4,6 +4,7 @@ import localFont from "next/font/local";
 import styles from "@/styles/Home.module.css";
 import { useEffect, useState } from "react";
 import VillainSection from "./villainSection";
+import Navbar from "./navbar";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -26,11 +27,12 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
+      <Navbar/>
       <div
         className={`${styles.page} ${geistSans.variable} ${geistMono.variable}`}
       >
         <main className={styles.main}>
-          
         <VillainSection/>          
         </main>
 
@@ -79,6 +81,10 @@ export default function Home() {
               height={40}
             />
           </a>
+          <p>
+          CineIDE © Todos os direitos reservados. <br/>
+          Termos de Uso  |  Politica de Privacidade  |  Política de Cookies
+          </p>
         </footer>
       </div>
     </>

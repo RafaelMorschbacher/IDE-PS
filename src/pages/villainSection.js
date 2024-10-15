@@ -11,7 +11,7 @@ const villains = ["Freddy", "Nekko", "PennyWise", "Jason", "Michael Myers", "Lea
   "Leatherface": 'Leatherface é um homem corpulento que usa uma máscara de pele humana e carrega uma serra elétrica, tornando-o uma figura aterrorizante. Ele vive em uma fazenda isolada com sua família canibal, os Sawyer, que sequestram e matam viajantes. Mentalmente instável, age de forma primitiva e violenta, sendo frequentemente manipulado por outros membros da família.'
 }
 
-export function VillainSection() {
+export const VillainSection = () => {
     
     const [villain, setVillain] = useState("Freddy");
     const [description, setDescription] = useState(descriptions["Freddy"]);
@@ -20,7 +20,7 @@ export function VillainSection() {
     }, [villain]);
     return (
         <section className="villainSection">
-            <h2 className="icones">Os Ícones do Terror</h2>
+            <h2 className="iconesTerror">Os Ícones do Terror</h2>
             <ul className="villainList">
               {villains.map((listedVillain) => (
                 <li key={listedVillain}>
