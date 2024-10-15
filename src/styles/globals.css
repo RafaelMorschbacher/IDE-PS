@@ -1,6 +1,6 @@
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #0a0a0a;
+  --foreground: #ededed;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -37,15 +37,31 @@ a {
 
 
 .navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
   display: flex;
   justify-content: space-around;
   align-items: center;
   padding: 50px 10%;
-  background: var(--background);
-  color: var(--foreground);
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
 }
 
-
+.banner h1 {
+  color: white;
+  font-size: 80px;
+  text-align: end;
+  padding: 20px 0;
+}
+.banner p {
+  color: white;
+  font-size: 30px;
+  text-align: end;
+  padding: 10px 0;
+}
 .iconesTerror{
   font-size: 50px;
   padding: 50px 0 50px;

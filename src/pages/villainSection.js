@@ -19,14 +19,14 @@ export const VillainSection = () => {
         setDescription(descriptions[villain]);
     }, [villain]);
     return (
-        <section className="villainSection">
+        <section id='villainSection' className="villainSection">
             <h2 className="iconesTerror">Os Ícones do Terror</h2>
             <ul className="villainList">
               {villains.map((listedVillain) => (
                 <li key={listedVillain}>
                   <a
                     className={`villainCard ${listedVillain === villain ? "selected" : ""}`}
-                    href="#"
+                    href="#villainSection"
                     onClick={() => { setVillain(listedVillain) }}
                   >
                     {listedVillain}

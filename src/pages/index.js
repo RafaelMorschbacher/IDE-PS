@@ -5,6 +5,7 @@ import styles from "@/styles/Home.module.css";
 import { useEffect, useState } from "react";
 import VillainSection from "./villainSection";
 import Navbar from "./navbar";
+import Banner from "./banner";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -29,6 +30,7 @@ export default function Home() {
       </Head>
 
       <Navbar/>
+      <Banner/>
       <div
         className={`${styles.page} ${geistSans.variable} ${geistMono.variable}`}
       >
