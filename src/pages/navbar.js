@@ -6,7 +6,7 @@ const Navbar = () => {
             <a href='#'>Home</a>
             <a href='#'>Catalogo</a>
             <a href='#villainSection'>Assassinos</a>
-            <a href='#'>Ingressos</a>
+            <a href='#Formulario'>Ingressos</a>
         </nav>
     );
 };

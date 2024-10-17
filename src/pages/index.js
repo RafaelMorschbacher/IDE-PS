@@ -4,6 +4,7 @@ import localFont from "next/font/local";
 import styles from "@/styles/Home.module.css";
 import { useEffect, useState } from "react";
 import VillainSection from "./villainSection";
+import Formulario from "./Formulario";
 import Navbar from "./navbar";
 import Banner from "./banner";
 
@@ -35,7 +36,8 @@ export default function Home() {
         className={`${styles.page} ${geistSans.variable} ${geistMono.variable}`}
       >
         <main className={styles.main}>
-        <VillainSection/>          
+        <VillainSection/>      
+        <Formulario/>  
         </main>
 
         <footer className={styles.footer}>
@@ -81,6 +83,7 @@ export default function Home() {
               alt="File icon"
               width={40}
               height={40}
+              
             />
           </a>
           <p>

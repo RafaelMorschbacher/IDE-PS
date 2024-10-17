@@ -56,17 +56,20 @@ a {
   text-align: end;
   padding: 20px 0;
 }
+
 .banner p {
   color: white;
   font-size: 30px;
   text-align: end;
   padding: 10px 0;
 }
-.iconesTerror{
+
+.iconesTerror {
   font-size: 50px;
   padding: 50px 0 50px;
 }
-.villainList{
+
+.villainList {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -83,16 +86,18 @@ a {
   width: 100%;
 }
 
-.villainCard:hover, .villainCard.selected {
+.villainCard:hover,
+.villainCard.selected {
   background: white;
   color: black;
 }
 
-.villainContent{
+.villainContent {
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-between
 }
+
 .villainContent p {
   font-size: 40px;
 }
@@ -101,10 +106,63 @@ a {
   font-size: 60px;
 }
 
-.footerImage{
+.Compra {
+  margin-left: 5%;
+  margin-top: 20%;
+  margin-bottom: 100%;
+  white-space: nowrap;
+}
+
+
+input::placeholder {
+  color: #ededed;
+  font-size: 200%;
+  font-weight: 1000;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+input[type=text]{
+  display: block;
+  width: 50%;
+  margin: 0%;
+  margin-top: 2%;
+  margin-left: 0%;
+  padding: 2%;
+  border: 1px;
+  border-radius: 10px;
+  border-color: #000000;
+  background-color: #D45827;
+}
+
+.enviar{
+  margin-top: 5%;
+  margin-right: 0%;
+  margin-left: 5%;
+  border-radius: 10px;
+  border-color: #D45827;
+  border-width: 3px;
+  padding: 1%;
+  padding-left: 15%;
+  padding-right: 15%;
+  text-align: center;
+  border-style: solid;
+  background-color: #000000;
+  color: #D45827;
+}
+
+.Caveira {
+  margin-top: -35%;
+  margin-left: 5%;
+  margin-bottom: 20%;
+  }
+
+
+.footerImage {
   filter: brightness(0) invert(1);
 
 }
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
