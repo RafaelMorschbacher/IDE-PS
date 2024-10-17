@@ -7,6 +7,7 @@ import VillainSection from "./villainSection";
 import Formulario from "./Formulario";
 import Navbar from "./navbar";
 import Banner from "./banner";
+import Cartazes from "./cartazes";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -36,6 +37,7 @@ export default function Home() {
         className={`${styles.page} ${geistSans.variable} ${geistMono.variable}`}
       >
         <main className={styles.main}>
+        <Cartazes/>
         <VillainSection/>      
         <Formulario/>  
         </main>
