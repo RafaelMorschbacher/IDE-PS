@@ -4,9 +4,9 @@ const Navbar = () => {
     return (
         <nav className='navbar' id='navbar'>
             <a href='#'>Home</a>
-            <a href='#'>Catalogo</a>
+            <a href='#catalogo'>Catalogo</a>
             <a href='#villainSection'>Assassinos</a>
-            <a href='#Formulario'>Ingressos</a>
+            <a href='#ingressos'>Ingressos</a>
         </nav>
     );
 };

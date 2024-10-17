@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const Cartazes = () => {
     return (
-        <>
+        <section id='catalogo'>
             <h1 className="tituloCartazes">FILMES EM CARTAZ</h1>
             
             <div className="image-grid">
@@ -24,7 +24,7 @@ const Cartazes = () => {
                 <img src="images/Filme15.png" alt="Filme 15"/>
                 <img src="images/Filme16.png" alt="Filme 16"/>
         </div>
-        </>
+        </section>
     );
 };
 

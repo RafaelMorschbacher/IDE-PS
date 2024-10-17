@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 export const Formulario = () => {
     return (
-        <div style={{ position: 'relative' }} className="Compra">
+        <div style={{ position: 'relative' }} className="Compra" id='ingressos'>
             <h1><span style={{ fontSize: 55 }}>COMPRAR INGRESSO</span></h1>
             <form>
                 <label for="name"> <span style={{ fontSize: 35 }}></span></label>
