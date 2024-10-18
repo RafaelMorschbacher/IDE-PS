@@ -3,10 +3,10 @@ import React from 'react';
 const Navbar = () => {
     return (
         <nav className='navbar' id='navbar'>
-            <a href='#'>Home</a>
-            <a href='#catalogo'>Catalogo</a>
-            <a href='#villainSection'>Assassinos</a>
-            <a href='#ingressos'>Ingressos</a>
+            <a href='#'>HOME</a>
+            <a href='#catalogo'>CATALOGO</a>
+            <a href='#villainSection'>ASSASSINOS</a>
+            <a href='#ingressos'>INGRESSOS</a>
         </nav>
     );
 };

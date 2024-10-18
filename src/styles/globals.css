@@ -66,8 +66,14 @@ p{
   justify-content: space-around;
   align-items: center;
   padding: 50px 10%;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.9);
   color: white;
+}
+
+.navbar a {
+  font-family: 'Milanello';
+  font-weight: 400;
+  font-size: 36px;
 }
 
 .banner img {
@@ -127,11 +133,12 @@ p{
 .villainContent {
   display: flex;
   flex-wrap: nowrap;
-  justify-content: space-between
+  justify-content: space-around
 }
 
 .villainContent p {
   font-size: 40px;
+  padding-right: 10px;
 }
 
 .villainContent h2 {
@@ -147,7 +154,6 @@ p{
 .Compra {
   margin-left: 5%;
   margin-top: 20%;
-  margin-bottom: 100%;
   white-space: nowrap;
   font-family: 'Milanello', Milanello;
 }
