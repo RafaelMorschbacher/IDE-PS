@@ -19,35 +19,32 @@ export const VillainSection = () => {
         setDescription(descriptions[villain]);
     }, [villain]);
     return (
-        <section id='villainSection' className="villainSection">
-            <h2 className="iconesTerror">Os Ícones do Terror</h2>
-            <ul className="villainList">
-              {villains.map((listedVillain) => (
-                <li key={listedVillain}>
-                  <a
-                    className={`villainCard ${listedVillain === villain ? "selected" : ""}`}
-                    href="#villainSection"
-                    onClick={() => { setVillain(listedVillain) }}
-                  >
-                    {listedVillain}
-                  </a>
-                </li>
-              ))}
-            </ul>
-            <div className="villainContent">
-              <div>
-                <h2>{villain}</h2>
-                <p>{description}</p>
-              </div>
-              <Image
-                alt={villain}
-                src={`/images/${villain}.png`}
-                layout="intrinsic"
-                width={608}
-                height={618}
-              />
-            </div>
-          </section>
+      <section id='villainSection' className="villainSection">
+      <h2 className="iconesTerror">Os Ícones do Terror</h2>
+      <ul className="villainList">
+        {villains.map((listedVillain) => (
+        <li key={listedVillain}>
+        <a
+        className={`villainCard ${listedVillain === villain ? "selected" : ""}`}
+        href="#villainSection"
+        onClick={() => { setVillain(listedVillain) }}
+        >
+        {listedVillain}
+        </a>
+        </li>
+        ))}
+      </ul>
+      <div className="villainContent">
+        <div>
+        <h2>{villain}</h2>
+        <p>{description}</p>
+        </div>
+        <img
+        alt={villain}
+        src={`/images/${villain}.png`}
+        />
+      </div>
+      </section>
     );
 }
 

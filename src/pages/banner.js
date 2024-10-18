@@ -6,7 +6,7 @@ export const Banner = () => {
         <div style={{ position: 'relative' }} className="banner">
             <img src="/images/banner.png" alt="Banner Image" width="100%" height="auto" />
             <div style={{ position: 'absolute', bottom: "10%", right: "10%" }}>
-            <h1 >C<span style={{fontSize: 60}}>INE</span>IDE</h1>
+            <h1 >C<span>INE</span>IDE</h1>
             <p>Clássicos do terror, onde o pavor nunca sai de cena</p>
             </div>
            
