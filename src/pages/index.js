@@ -31,32 +31,33 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Navbar/>
-      <Banner/>
+      <Navbar />
+      <Banner />
       <div
         className={`${styles.page} ${geistSans.variable} ${geistMono.variable}`}
       >
         <main className={styles.main}>
-        <Cartazes/>
-        <VillainSection/>      
-        <Formulario/>  
+          <Cartazes />
+          <VillainSection />
+          <Formulario />
         </main>
 
         <footer className={styles.footer}>
-        <a
+
+          <a
             href="#"
             target="_blank"
             rel="noopener noreferrer"
           >
             <Image
-            className="footerImage"
+              className="footerImage"
               aria-hidden
               src="/images/instagram.png"
               alt="File icon"
               width={40}
               height={40}
             />
-            
+
           </a>
           <a
             href="#"
@@ -64,7 +65,7 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             <Image
-            className="footerImage"
+              className="footerImage"
               aria-hidden
               src="/images/linkedin.png"
               alt="File icon"
@@ -72,25 +73,25 @@ export default function Home() {
               height={40}
             />
           </a>
-          
+
           <a
             href="#"
             target="_blank"
             rel="noopener noreferrer"
           >
             <Image
-            className="footerImage"
+              className="footerImage"
               aria-hidden
               src="/images/ide.png"
               alt="File icon"
               width={40}
               height={40}
-              
+
             />
           </a>
           <p>
-          CineIDE © Todos os direitos reservados. <br/>
-          Termos de Uso  |  Politica de Privacidade  |  Política de Cookies
+            CineIDE © Todos os direitos reservados. <br />
+            Termos de Uso  |  Politica de Privacidade  |  Política de Cookies
           </p>
         </footer>
       </div>
