@@ -76,7 +76,7 @@ p{
 .navbar a {
   font-family: 'Milanello';
   font-weight: 400;
-  font-size: 36px;
+  font-size: 200%;
 }
 
 .banner img {
@@ -86,25 +86,25 @@ p{
 .banner h1 {
   color: white;
   font-family: 'Cinematografica';
-  font-size: 200px;
+  font-size: 1000%;
   font-weight: 400;
-  line-height: 146.77px;
+  line-height: 90%;
   letter-spacing: 0.11em;
   text-align: end;
 }
 .banner span {
-  font-size: 140px;
+  font-size: 80%;
 }
 
 .banner p {
   color: white;
-  font-size: 28px;
+  font-size: 200%;
   text-align: end;
   padding: 10px 0;
 }
 
 .iconesTerror {
-  font-size: 50px;
+  font-size: 350%;
   padding: 50px 0 50px;
   font-family: 'Milanello';
   margin-top: 20%;
@@ -120,7 +120,7 @@ p{
 
 .villainCard {
   font-family: 'Milanello';
-  font-size: 25px;
+  font-size: 200%;
   background: transparent;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -142,12 +142,12 @@ p{
 }
 
 .villainContent p {
-  font-size: 40px;
+  font-size: 200%;
   padding-right: 10px;
 }
 
 .villainContent h2 {
-  font-size: 45px;
+  font-size: 300%;
   font-family: 'Milanello', Milanello;
   padding: 40px 0;
 }
@@ -165,7 +165,7 @@ p{
   font-family: 'Milanello', Milanello;
 }
 .Compra h1{
-  font-size: 55px;
+  font-size: 300%;
 }
 
 input::placeholder {
@@ -289,6 +289,6 @@ input[type=text]{
   text-align: left;
   margin-bottom: 8%;
   margin-left: 15%;
-  font-size: 40px;
+  font-size: 300%;
   font-weight: bold;
 }
