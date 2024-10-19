@@ -171,6 +171,8 @@ p{
 input::placeholder {
   color: #ededed;
   font-size: 200%;
+  height: 2vm;
+  width: 2vm;
   text-align: left;
   text-transform: uppercase;
 }
@@ -182,9 +184,9 @@ input[type=text]{
   margin-top: 2%;
   margin-left: 0%;
   font-family: 'Milanello', Milanello;
-  font-size: medium;
   padding: 2%;
   border: 1px;
+  font-size: 90%;
   border-radius: 10px;
   border-color: #000000;
   background-color: #D45827;
@@ -205,6 +207,10 @@ input[type=text]{
   border-style: solid;
   background-color: #000000;
   color: #D45827;
+
+  &:hover {
+    transform: scale(1.1);
+  }
 }
 
 .Caveira {
