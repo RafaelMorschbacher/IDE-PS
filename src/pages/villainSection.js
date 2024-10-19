@@ -26,8 +26,9 @@ export const VillainSection = () => {
         <li key={listedVillain}>
         <a
         className={`villainCard ${listedVillain === villain ? "selected" : ""}`}
-        href="#villainSection"
-        onClick={() => { setVillain(listedVillain) }}
+        href=""
+        target='none'
+        onClick={(e) => {e.preventDefault(); setVillain(listedVillain) }}
         >
         {listedVillain}
         </a>

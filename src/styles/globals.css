@@ -32,8 +32,7 @@ body {
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
+  color: white;
   font-family: Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -43,6 +42,7 @@ body {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  max-width: 100vw;
 }
 
 a {
@@ -52,6 +52,7 @@ a {
 
 h1,h2,h3 {
   font-family: 'Milanello';
+  color: white;
 }
 
 p{
@@ -81,6 +82,7 @@ p{
 .banner img {
   filter: brightness(50%);
 }
+
 .banner h1 {
   color: white;
   font-family: 'Cinematografica';
@@ -162,7 +164,9 @@ p{
   white-space: nowrap;
   font-family: 'Milanello', Milanello;
 }
-
+.Compra h1{
+  font-size: 55px;
+}
 
 input::placeholder {
   color: #ededed;
@@ -218,6 +222,41 @@ input[type=text]{
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    padding: 25px 10%;
+  }
+  .navbar a{
+    font-size: 15px;
+  }
+
+  h1, h2 {
+    font-size: 30px !important;
+    text-align: center;
+  }
+
+  .villainList{
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+  }
+  .villainCard{
+    font-size: 15px;
+    padding: 10px;
+  }
+  .villainContent {
+    flex-direction: column;
+  }
+  .villainContent p {
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+  }
+  .villainContent img{
+    margin: 10px 0 20px 0;
   }
 }
 
